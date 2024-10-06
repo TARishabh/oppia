@@ -83,7 +83,7 @@
   text-transform: uppercase;
   width: 168px;
 }
-/* this removes the extra button rendering in the bottom  */
+
 mobile-nav-options
   oppia-topic-editor-navbar
   ul.oppia-navbar-desktop.nav.navbar-nav.oppina-navbar-nav.float-right {
@@ -112,8 +112,6 @@ mobile-nav-options
     display: flex !important;
   }
 }
-
-/* this css hides the save and discard changes button between 600px to 768px */
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .navbar-container
     .collapse.d-lg-inline-flex.navbar-collapse.oppia-navbar-collapse.ng-cloak.navbar-options-display
